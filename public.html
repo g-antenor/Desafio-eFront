@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Desafio E-book</title>
+
+    <link rel="stylesheet" href="./src/style/home.css">
+    <link rel="stylesheet" href="./src/style/popup.css">
+
+</head>
+<body>
+    
+    <header id="header">
+        <h1><span id="e-title">e</span>Titulo</h1>
+        <button id="get-book" type="submit">Comprar e-book</button>
+    </header>
+
+    <main id="content-main">
+        <section class="content">
+            <h2>Seja bem-vindo a sua melhor newsletter</h2>
+            <h3>Fique por dentro de todas as novidades</h3>
+        </section>
+        <section class="content">
+            <p>Preencha os campos para receber as notícias sobre programação</p>
+            <div id="form">
+                <div class="form-group">
+                    <label class="title-input" for="name">Nome</label>
+                    <input type="text" name="nome" id="name">
+                </div>
+                <div class="form-group">
+                    <label class="title-input" for="email">E-mail</label>
+                    <input type="email" name="e-mail" id="email">
+                </div>
+                <button class="btn-submit">Enviar</button>
+            </div>
+        </section>
+    </main>
+    <div id="right">
+        <div class="popup-content">
+            <h4>E-mail cadastrado com <span class="right">sucesso</span></h4>
+            <button class="btn correct">Fechar</button>
+        </div>
+    </div>
+    <div id="wrong">
+        <div class="popup-content">
+            <h4>E-mail <span class="wrong">não</span> cadastrado</h4>
+            <button class="btn incorrect">Fechar</button>
+        </div>
+    </div>
+    <script src="./src/script/index.js"></script>
+</body>
+</html>

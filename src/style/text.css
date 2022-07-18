@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+h1{
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    text-align: center;
+}
+h2{
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+h3 {
+    color: var(--dark-green);
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+p{
+    color: var(--grey);
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+}
+#e-title {
+    background: -webkit-linear-gradient(#099849, #0C7A3D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-weight: 800;
+    font-size: 48px;
+}
+.title-input{
+    color: var(--grey);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+}
+.right {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--clear-green);
+}
+.wrong {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--clear-red);
+}

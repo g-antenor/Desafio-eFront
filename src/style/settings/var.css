@@ -1,0 +1,13 @@
+:root{
+    /* Clear Colors */
+    --white: #F9F9F9;
+    --clear-red: #FF3E3E;
+    --clear-green: #099849;
+
+    /* Dark Color */
+    --bg:  #181818;
+    --dark-red: #D33636;
+    --dark-green: #0C7A3D;
+
+    --grey: #AEAEAE;
+}
